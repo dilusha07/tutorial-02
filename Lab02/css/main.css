@@ -1,0 +1,82 @@
+body {
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.topnav {
+  overflow: hidden;
+}
+
+.topnav a {
+  float: left;
+  color: #999966 ;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+.topnav a:hover {
+text-decoration: underline;
+}
+
+#last {
+  background-color:#ff0066;
+  
+}
+.logo{
+  float: right;
+  margin-bottom: 30px;
+}
+header{
+  color: white;
+  background-color: black;
+  padding-top:25px;
+  padding-bottom: 25px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+h3,h5,h6{
+  text-align: center;
+}
+.sections{
+  background-color: black;
+  display: inline-flex;
+}
+.section1{
+  float: left;
+}
+.section2{
+  float: right;
+  color: white;
+  font-size: 14px;
+
+}
+.row > .column {
+  padding: 0 8px;
+}
+
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Create four equal columns that floats next to eachother */
+.column {
+  float: left;
+  width: 25%;
+}
+
+footer {
+  background-color: black;
+  
+}
+h4,p{
+  color: white;
+}
+.endsection{
+  background-color:    #602040;
+  padding-bottom: 20px;
+  padding-top: 20px;
+}
